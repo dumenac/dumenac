@@ -1,0 +1,29 @@
+# Redraws the contribution graph every day as an SVG animation (light + dark) and publishes it to
+# the `output` branch, which the README embeds. Colours follow mele.dev: ink snake, blue squares.
+name: snake
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#1d1d1f&color_dots=#ebedf0,#cfe2f7,#8fbcef,#3d8be0,#0066cc
+            dist/github-snake-dark.svg?color_snake=#f5f5f7&color_dots=#161b22,#0b2a4a,#0f4c8a,#1f74d0,#2997ff
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
