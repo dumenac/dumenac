@@ -34,9 +34,20 @@ via the [Exponential Fellowship](https://goexponential.org).
 
 <br>
 
+**Build**
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-dark.png">
-  <img src="assets/toolbox-light.png" width="100%" alt="Data: BigQuery, dbt, Google Cloud, Postgres, DuckDB, Python, pandas, Jupyter, Looker Studio. Web and apps: TypeScript, JavaScript, React, Next.js, Vue, Astro, Bun, Node.js, Vite, Tailwind, MDX, Swift, Xcode. Cloud and backend: Supabase, PostgREST, Vercel, Cloudflare, Stripe, Postman, Ethereum, Solana. AI: Claude Code, MCP, Cursor, OpenAI, Hugging Face, Ollama. Home lab and desktop: Docker, Debian, Linux, Tailscale, CUDA, i3, zsh, Bash, Git, GitHub Actions. Product and GTM: Figma, Linear, Notion, Clay, HubSpot.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-build-dark.png">
+  <img src="assets/toolbox-build-light.png" width="100%" alt="Data: BigQuery, dbt, Postgres, DuckDB, pandas, NumPy, Jupyter, Looker Studio. Backend: Python, Django, FastAPI, Flask, SQLAlchemy, Node.js, Express, Bun, GraphQL, OpenAPI, Prisma, Redis, MySQL, MongoDB, SQLite, Supabase, Firebase, PostgREST, Stripe, Postman. Web and apps: TypeScript, JavaScript, React, Next.js, Vue, Nuxt, Astro, Tailwind, shadcn/ui, Vite, MDX, HTML, CSS, Swift, SwiftUI, Xcode. Cloud and DevOps: Google Cloud, AWS, Vercel, Cloudflare, Docker, GitHub Actions, Nginx, Sentry. AI: Claude Code, Anthropic API, MCP, OpenAI, Cursor, Hugging Face, Ollama. Web3: Ethereum, Solana, Polygon, Base, Solidity. Home lab and desktop: Debian, Ubuntu, Linux, Tailscale, CUDA, i3, zsh, Bash, Git, VS Code, Sublime Text.">
+</picture>
+
+<br>
+
+**Operate**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-operate-dark.png">
+  <img src="assets/toolbox-operate-light.png" width="100%" alt="Product: Figma, Linear, Notion, Jira, Miro, Loom, PostHog, Mixpanel, Amplitude, Hotjar, Google Analytics, Typeform, Tally. Go-to-market: Clay, Apollo, HubSpot, Salesforce, Attio, Pipedrive, Gong, Lemlist, Instantly, Sales Navigator, Intercom, Zendesk, Customer.io, Mailchimp, Segment, Calendly, DocuSign, Dune. Growth and content: Webflow, Framer, Ghost, Substack, Google Ads, Meta Ads, Semrush, Ahrefs, Product Hunt, X, LinkedIn, YouTube, Canva, Gamma. Ops and comms: Zapier, Make, n8n, Airtable, Google Sheets, Google Docs, Google Slides, Slack, Discord, Telegram, WhatsApp, Zoom, Google Meet.">
 </picture>
 
 <br>
